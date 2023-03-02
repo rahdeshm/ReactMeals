@@ -1,0 +1,56 @@
+import styled from "styled-components";
+
+const MealItemDiv=styled.div`
+
+// background-color:yellow;
+margin-bottom:20px;
+display: flex;
+justify-content: space-between;
+margin: 1rem;
+padding-bottom: 1rem;
+border-bottom: 1px solid #ccc;
+z-index:100;
+ 
+div.mealDetails{
+    text-align:left;
+    padding-left:20px;
+}
+h3 {
+     margin: 0 0 0.25rem 0;
+  }
+   & .description {
+    font-style: italic;
+  }
+  & .price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+  }
+
+`
+
+export { MealItemDiv}
+
+// .meal {
+//     display: flex;
+//     justify-content: space-between;
+//     margin: 1rem;
+//     padding-bottom: 1rem;
+//     border-bottom: 1px solid #ccc;
+//   }
+  
+//   .meal h3 {
+//     margin: 0 0 0.25rem 0;
+//   }
+  
+//   .description {
+//     font-style: italic;
+//   }
+  
+//   .price {
+//     margin-top: 0.25rem;
+//     font-weight: bold;
+//     color: #ad5502;
+//     font-size: 1.25rem;
+//   }
